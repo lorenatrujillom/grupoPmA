@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding: 0;
+}
+/*----- BODY----- */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*----- HEADER----- */
+#header {
+  height: 70px;
+  background: #fff;
+  box-shadow: 0px 0px 7px #00000055;
+   position: relative;
+}
+#logo {
+  float: left;
+  padding: 10px;
+}
+#menu {
+  float: right;
+  margin: 24px;
+}
+#menu hr{
+  display: block;
+}
+#menu a {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+}
+/*-------- FIN HEADER------*/
+
+/*----- BANNER----- */
+#banner {
+  background: url(../img/gabo.jpg) center;
+  height: 550px;
+}
+#banner h1{
+  color:#efb704;
+  font-size: 80px;
+  text-align: right;
+  padding: 150px 50px;
+}
+/*-----FIN BANNER----- */
+
+/*----- CATEGORÍAS----- */
+#tablaCategorias {
+  width: auto;
+  margin: 0 auto;
+}
+#cat {
+  padding: 50px;
+}
+/*-----FIN CATEGORÍAS----- */
+
+/*----- BIOGRAFÍA----- */
+#biografia{
+  background-color: #000000;
+  padding: 20px 100px 70px 100px;
+}
+#bio {
+  text-align: center;
+  font-size: 40;
+  padding: 20px;
+  color: white;
+}
+p{
+  font-size: 20;
+  text-align: justify;
+  color: white;
+}
+/*-----FIN BIOGRAFÍA----- */
+
+/*-----PREMIOS----- */
+#premio {
+  text-align: center;
+  font-size: 40;
+  padding: 50px 0px 0px 0px;
+}
+#tablaPremios{
+  width: auto;
+  padding: 30px 100px 30px 100px;
+}
+#anio{
+  font-size: 20;
+  color: black;
+  padding: 20px 200px 20px 20px;
+}
+/*-----FIN PREMIOS----- */
+
+/*-----FOOTER----- */
+#footer{
+  background-color: #000000;
+  padding: 20px 100px 70px 100px;
+  color: white;
+  text-align: center;
+}
+/*-----FIN FOOTER----- */

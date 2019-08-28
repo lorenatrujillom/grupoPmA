@@ -1,0 +1,101 @@
+body{
+    background: url(../img/fondo.jpg) repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    opacity: 50%;
+}
+/*----- HEADER----- */
+#header {
+  height: 70px;
+  background: #fff;
+  box-shadow: 0px 0px 7px #00000055;
+  position: relative;
+}
+#logo {
+  float: left;
+  padding: 10px;
+}
+#menu {
+  float: right;
+  margin: 24px;
+}
+#menu hr{
+  display: block;
+}
+#menu a {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+}
+/*---------CONTENEDOR PRINCIPAL-------*/
+#contenido{
+    background: #fff;
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 7px #00000055;
+}
+#portada, #resena, #compras{
+    padding: 30px;
+    display: block;
+    overflow: auto;
+}
+#compras{
+    text-align: center;
+}
+#imagen{
+    width: 50%;
+    float: left;
+}
+#imagen img {
+    margin: 0 auto;
+    display: block;
+}
+#datos{
+  padding-left: 50px;
+}
+/*------- ESTILOS PARA LAS CATEGORIAS ------*/
+#resenaNovela, #resenaCuento, #resenaNoFiccion, #resenaMemoria {
+    padding: 30px; 
+    clear: both;
+}
+#resenaNovela h2, #resenaNovela p, #resenaCuento h2,  #resenaCuento p, 
+#resenaNoFiccion h2, #resenaNoFiccion p, #resenaMemoria h2,  #resenaMemoria p{
+    color: #fff;
+}
+#resenaNovela{
+    background:#F2355B;
+}
+#tituloNovela{
+    color:#F2355B;
+}
+#resenaCuento{
+    background: #02A694;
+}
+#tituloCuento{
+    color: #02A694;
+}
+#resenaNoFiccion{
+    background: #F38902;
+}
+#tituloNoFiccion{
+    color:#F38902;
+}
+#resenaMemoria{
+    background: #32244d;
+}
+#tituloMemoria{
+    color:#32244d;
+}
+/*------- ESTILOS BOTONES COMPRA ----*/
+#compras img{
+    width: 150px;
+    padding: 30px;
+}
+/*------- ESTILOS FOOTER ----*/
+#footer{
+    background-color: #000000;
+    padding: 20px 100px 70px 100px;
+    color: white;
+    text-align: center;
+  }

@@ -1,0 +1,142 @@
+body{
+    background: url(../img/fondo.jpg) repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contenido{
+    background: #fff;
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 7px #00000055;
+}
+
+#header {
+    height: 70px;
+    background: #fff;
+    box-shadow: 0px 0px 7px #00000055;
+    position: relative;
+}
+#logo {
+    float: left;
+    padding: 10px;
+}
+#menu {
+    float: right;
+    margin: 24px;
+}
+#menu hr{
+    display: block;
+}
+#menu a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+img{
+    display: block;
+    height: 150px;
+    width: 100px;
+    margin: auto;
+}
+
+#tabla1Novela{
+    margin: auto;
+    border: #F2355B 5px solid;
+    border-collapse: collapse;
+}
+
+#tabla2Novela{
+    border-top: 0px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#tablaCuento{
+    margin: auto;
+    border: #02A694 5px solid;
+    border-collapse: collapse;
+}
+
+#tabla1NoFiccion{
+    margin: auto;
+    border: #F38902 5px solid;
+    border-collapse: collapse;
+}
+
+#tabla2NoFiccion{
+    border-top: 0px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#tablaMemoria{
+    margin: auto;
+    border: #32244d 5px solid;
+    border-collapse: collapse;
+}
+
+.tdNovela{
+    margin: auto;
+    border-bottom: #F2355B 5px solid;
+    border-left: #F2355B 5px solid;
+    border-right: #F2355B 5px solid;
+    width: 200;
+}
+
+.tdCuento{
+    margin: auto;
+    border-bottom: #02A694 5px solid;
+    border-left: #02A694 5px solid;
+    border-right: #02A694 5px solid;
+    width: 250;
+}
+
+.tdNoFiccion{
+    margin: auto;
+    border-bottom: #F38902 5px solid;
+    border-left: #F38902 5px solid;
+    border-right: #F38902 5px solid;
+    width: 200;
+}
+
+.noBorde{
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+#tituloNovela{
+    color:  #F2355B;
+    text-align: center;
+}
+
+#tituloCuento{
+    color:  #02A694;
+    text-align: center;
+}
+
+#tituloNoFiccion{
+    color:  #F38902;
+    text-align: center;
+}
+
+#tituloMemoria{
+    color:  #32244d;
+    text-align: center;
+}
+
+h2{
+    font-size: 17px;
+    color:black;
+    text-align: center;
+    margin: 5px auto;
+    padding: 0;
+}
+
+#footer{
+    background-color: #000000;
+    padding: 20px 100px 70px 100px;
+    color: white;
+    text-align: center;
+}
